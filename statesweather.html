@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="statescss.css">
+</head>
+<body>
+    <div class="headerwrapper">
+        <h1>Indian States Weather App</h1>
+        <div class="dropdown">
+            <div class="stateslist">Indian States</div>
+            <div class="dropdown-content"></div>
+        </div>
+        <div class="loading">
+            <img src="assets/loading.gif" alt="Loading Screen" height="150" width="150">
+        </div>
+        <div class="user-info-container">
+            <div class="name">
+                <p id="citynaam"></p>
+                <img id="countryicon" height="50" width="75">
+            </div>
+            <p id="weatherdesc"></p>
+            <img id="weathericon" height="70" width="70">
+            <p id="temperature"></p>
+            <div class="images">
+                <div class="parameter">
+                    <img src="assets/wind.png" alt="wind" height="50" width="50">
+                    <p>Windspeed</p>
+                    <p id="windspeed"></p>
+                </div>
+                <div class="parameter">
+                    <img src="assets/humidity.png" alt="Humidity" height="50" width="50">
+                    <p>Humidity</p>
+                    <p id="humidity"></p>
+                </div>
+                <div class="parameter">
+                    <img src="assets/cloud.png" alt="cloud" height="50" width="50">
+                    <p>Clouds</p>
+                    <p id="cloudiness"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="states.js"></script>
+</body>
+</html>
